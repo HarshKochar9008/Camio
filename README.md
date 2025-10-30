@@ -55,6 +55,4 @@ Open `http://localhost:8080` to view a static processed frame and live-updating 
   - OpenGL rendering
   - Web viewer
   - README/instructions
-- Push to a public or shareable private repository for evaluation.
-
 
