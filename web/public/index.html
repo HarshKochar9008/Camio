@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>EdgeViewer Web</title>
+    <style>
+      body { font-family: system-ui, sans-serif; background: #111; color: #eee; margin: 0; padding: 16px; }
+      .hud { position: fixed; top: 12px; left: 12px; background: rgba(0,0,0,.5); padding: 8px 12px; border-radius: 8px; }
+      img { max-width: 100%; height: auto; display: block; margin-top: 56px; border: 1px solid #333; }
+      .stat { margin-right: 16px; }
+    </style>
+  </head>
+  <body>
+    <div class="hud">
+      <span class="stat">FPS: <strong id="fps">--</strong></span>
+      <span class="stat">Res: <strong id="res">--</strong></span>
+    </div>
+    <img id="frame" alt="Processed frame" />
+    <script type="module" src="./js/index.js"></script>
+  </body>
+  </html>
+

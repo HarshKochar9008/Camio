@@ -1,0 +1,66 @@
+# Android/Gradle
+.gradle/
+/local.properties
+/.idea/
+*.iml
+/build/
+app/build/
+captures/
+*.apk
+*.ap_*
+*.dex
+*.class
+.cxx/
+output.json
+debug/
+release/
+
+# Web/Node/TypeScript
+node_modules/
+dist/
+build/
+.webpack/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log
+yarn-error.log
+pnpm-debug.log*
+
+# OS/System
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*~
+*.bak
+*.tmp
+*.temp
+
+# Env & Logs
+.env*
+logs/
+*.log
+
+# Coverage
+coverage/
+
+# Git
+.git/
+
+# macOS
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+Icon?
+._*
